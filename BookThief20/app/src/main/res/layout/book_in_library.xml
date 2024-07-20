@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B2FE9000"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/book_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/book_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/book_list_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/book_list_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/inter"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="7"
+        android:text="Смотреть"
+        android:textAlignment="gravity"
+        android:textColor="#FE9000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

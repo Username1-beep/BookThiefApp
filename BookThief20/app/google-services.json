@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051107300983",
+    "project_id": "bookthiefapp",
+    "storage_bucket": "bookthiefapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051107300983:android:fe74c23eebf61140bed872",
+        "android_client_info": {
+          "package_name": "com.example.bookthief20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlIGbfoVyTpJwsqiFaAP3tOnZFekkj7UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
